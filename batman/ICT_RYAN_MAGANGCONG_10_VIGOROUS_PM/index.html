@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FunFacts</title>
+  <style>
+    body {
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      font-family: Calibri, sans-serif; /* Set font */
+    }
+    .navbar {
+      background: darkblue;
+      font-family: Calibri, sans-serif;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000; /* Ensure the navbar is above other content */
+    }
+    .navbar-brand {
+      font-size: 35px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+    }
+    .navbar-links {
+      list-style: none;
+      display: flex;
+    }
+    .navbar-links li {
+      margin-right: 25px;
+    }
+    .navbar-links li a {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .navbar-links li a:hover {
+      text-decoration: underline;
+    }
+    .navbar-button {
+      background-color: red;
+      border-radius: 10px;
+      padding: 10px;
+      width: 90px;
+      text-align: center;
+    }
+    .navbar-button a {
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    .content {
+      background-image: url('BG.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      text-align: center;
+      padding-top: 70px; /* Adjust to accommodate the navbar height */
+      margin-top: 70px; /* Ensure content starts below navbar */
+      height: calc(100vh - 70px); /* Set content height to fill viewport below navbar */
+    }
+    .fact-heading {
+      margin-top: 40px;
+      color: #f0f0f0; /* Cool type of white */
+    }
+    .fact-image {
+      border: 10px solid black;
+      max-width: 100%;
+    }
+  </style>
+ </head>
+<body>
+  <div class="navbar">
+    <div class="navbar-brand">FunFacts</div>
+    <ul class="navbar-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="origin.html">Origin</a></li>
+      <li><a href="tv_series.html">TV Series</a></li>
+      <li><a href="modern_batman.html">Modern Batman</a></li>
+    </ul>
+    <div class="navbar-button">
+      <a href="#">Sign Up</a>
+    </div>
+  </div>
+  <div class="content">
+    <div class="fact-heading">
+      <center><h1>The Cape Crusader, The Dark knight, The Batman</h1></center>
+      <p>We all know the cape crusader, the dark knight, or you may know him as Batman. Nonetheless, he's one of the staples of a superhero. His legacy extends far beyond the pages of comic books, permeating popular culture in myriad ways. From blockbuster films to acclaimed animated series, Batman has become an enduring symbol of justice and vigilance. Here's some insight on the evolution of our beloved caped crusader.</p>
+    <center>
+<img src="1.jpg" alt="1.jpg" border="10 px" height="320 px" width="500 px">
+</center>
+	</div>
+  </div>
+</body>
+</html>

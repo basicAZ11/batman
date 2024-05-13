@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TV Series - FunFacts</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Calibri, sans-serif;
+    }
+    .navbar {
+      background: darkblue;
+      font-family: Calibri, sans-serif;
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar-brand {
+      font-size: 35px;
+      font-weight: 600;
+      color: white;
+      text-decoration: none;
+    }
+    .navbar-links {
+      list-style: none;
+      display: flex;
+    }
+    .navbar-links li {
+      margin-right: 25px;
+    }
+    .navbar-links li a {
+      color: white;
+      font-size: 18px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .navbar-links li a:hover {
+      text-decoration: underline;
+    }
+    .navbar-button {
+      background-color: red;
+      border-radius: 10px;
+      padding: 10px;
+      width: 90px;
+      text-align: center;
+    }
+    .navbar-button a {
+      color: black;
+      font-weight: bold;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    .content {
+      background-image: url('BG.jpeg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      text-align: center;
+      padding-top: 70px;
+      margin-top: 70px;
+      min-height: calc(100vh - 70px); /* Changed to min-height to accommodate dynamic content */
+    }
+    .fact-heading {
+      margin-top: 40px;
+      color: #f0f0f0;
+    }
+    .fact-image {
+      border: 10px solid black;
+      max-width: 100%;
+      width: 50%; /* Adjusted image width to 50% */
+      margin: 20px auto; /* Center the images */
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-brand">FunFacts</div>
+    <ul class="navbar-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="origin.html">Origin</a></li>
+      <li><a href="tv_series.html">TV Series</a></li>
+      <li><a href="modern_batman.html">Modern Batman</a></li>
+    </ul>
+    <div class="navbar-button">
+      <a href="#">Sign Up</a>
+    </div>
+  </div>
+  <div class="content">
+    <h1>The Evolution of Batman in TV Series</h1>
+    <h2>The First Live Action TV Series</h2>
+    <p>During the 1940s, Batman transitioned from comics to television, debuting in the 15-chapter TV series 'Batman,' featuring Lewis Wilson playing the superhero. This period also marked the introduction of significant characters in the Batman universe, such as Robin the Boy Wonder, the Joker, and Catwoman. Comic editor Whitney Ellsworth decided in this decade that Batman would not be depicted as a killer in his eponymous comic series. Additionally, Gotham City was brought to life, and the iconic Batmobile became Batman's mode of transportation.</p>
+    <img src="The first live action.jpg" alt="The first live action" class="fact-image">
+    <h2>The Live Action in 60s</h2>
+    <p>During the late 1960s, a fresh 'Batman' television series emerged, starring Adam West as The Caped Crusader and Burt Ward as Robin. Their portrayals remain influential, referenced in later Batman works like 'The Lego Batman Movie,' which is filled with humor inspired by the original series. Known for its comedic tone, the show became renowned for its "pow" graphics during superhero battles against iconic villains such as the Joker, Riddler, Penguin, and Catwoman. Additionally, this era introduced the distinctive yellow chest symbol prominently displayed by Batman.</p>
+    <img src="1960s.jpg" alt="1960s" class="fact-image">
+  </div>
+</body>
+</html>
